@@ -1,4 +1,4 @@
-(^|\.)(|sec-)indexww\.
+(^|\.)(|sec\-)indexww\.
 (^|\.)1rx\.
 (^|\.)2mdn\.
 (^|\.)33across\.
@@ -13,7 +13,7 @@
 (^|\.)aerserv\.
 (^|\.)aff(iliat(es?|ion))?[-.]
 (^|\.)agentanalytics\.
-(^|\.)aiv-delivery\.
+(^|\.)aiv\-delivery\.
 (^|\.)alluremedia\.
 (^|\.)amazon-adsystem\.
 (^|\.)analytics?[-.]
@@ -27,7 +27,7 @@
 (^|\.)branch.io
 (^|\.)casalmedia\.
 (^|\.)chartbeat\.
-(^|\.)coin-hive\.
+(^|\.)coin\-hive\.
 (^|\.)condenastdigital\.
 (^|\.)contextweb\.
 (^|\.)count(ers?)?[0-9]*[-.]
@@ -46,18 +46,14 @@
 (^|\.)ezoic\.
 (^|\.)flashtalking\.
 (^|\.)flourish\.
-(^|\.)go-mpulse\.
+(^|\.)go\-mpulse\.
 (^|\.)google(\-analytics|tagmanager|syndication)\.
 (^|\.)gstatic\.
 (^|\.)gvt2\.
-(^|\.)id5-sync\.
-(^|\.)improvedigital\.
-(^|\.)imrworldwide\.
+(^|\.)id5\-sync\.
+(^|\.)im(provedigital|rworldwide)\.
 (^|\.)indexexchange\.
-(^|\.)kargo\.
-(^|\.)keywee\.
-(^|\.)klaviyo\.
-(^|\.)krxd\.
+(^|\.)k(argo|eywee|laviyo|rxd)\.
 (^|\.)lijit\.
 (^|\.)livechatinc\.
 (^|\.)mathtag\.
@@ -73,8 +69,7 @@
 (^|\.)pixels?[-.]
 (^|\.)pricee\.
 (^|\.)pubmatic\.
-(^|\.)qualtrics\.
-(^|\.)quantserve\.
+(^|\.)qua(ltrics|ntserve)\.
 (^|\.)rhythmone\.
 (^|\.)rover\.ebay\.
 (^|\.)rtk\.
@@ -91,9 +86,7 @@
 (^|\.)stat(s|istics)?[0-9]*[-.]
 (^|\.)stats\.wp\.
 (^|\.)taboola\.
-(^|\.)teads\.
-(^|\.)tealiumiq\.
-(^|\.)tercept\.
+(^|\.)te(ads|aliumiq|rcept)\.
 (^|\.)tiqcdn\.
 (^|\.)track(ers?|ing)?[0-9]*[-.]
 (^|\.)traff(ic)?[-.]
@@ -101,8 +94,7 @@
 (^|\.)tru.am\.
 (^|\.)turn\.
 (^|\.)tynt\.
-(^|\.)undertone\.
-(^|\.)unrulymedia\.
+(^|\.)un(dertone|rulymedia)\.
 (^|\.)verizonmedia\.
 (^|\.)w\.
 (^|\.)yield(mo|one)\.
