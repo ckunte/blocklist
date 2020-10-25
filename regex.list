@@ -24,7 +24,7 @@
 (^|\.)beacons?[0-9]*[-.]
 (^|\.)bidswitch\.
 (^|\.)bluekai\.
-(^|\.)branch.io
+(^|\.)branch\.io
 (^|\.)casalmedia\.
 (^|\.)chartbeat\.
 (^|\.)coin\-hive\.
@@ -91,7 +91,7 @@
 (^|\.)track(ers?|ing)?[0-9]*[-.]
 (^|\.)traff(ic)?[-.]
 (^|\.)triplelift\.
-(^|\.)tru.am\.
+(^|\.)tru\.am
 (^|\.)turn\.
 (^|\.)tynt\.
 (^|\.)un(dertone|rulymedia)\.
