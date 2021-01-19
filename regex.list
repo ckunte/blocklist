@@ -4,7 +4,7 @@
 (^|\.)33across\.
 (^|\.)3lift\.
 (^|\.)acuityplatform\.
-(^|\.)ad(|banner|brite|click|dform|dsafeprotected|dthis|dtoany|entifi|form|freestats|goto|link|lvr|nxs|ocean|s|server|sonar|svr|ultfriendfinder|ultrevenueservice|vertising|vertserve|vp)\.
+(^|\.)ad(|banner|brite|click|dform|dsafeprotected|dthis|dtoany|entifi|form|freestats|goto|link|lvr|nxs|ocean|s|serv(er|ice)|sonar|svr|ultfriendfinder|ultrevenueservice|vertising|vertserve|vp)\.
 (^|\.)adim(age|g)s?[0-9]*[-_.]
 (^|\.)adobetm\.
 (^|\.)adtrack(er|ing)?[0-9]*[-.]
@@ -17,7 +17,6 @@
 (^|\.)amazon-adsystem\.
 (^|\.)analytics?[-.]
 (^|\.)associates-amazon\.
-(^|\.)aternity\.
 (^|\.)banners?[-.]
 (^|\.)bazaarvoice\.
 (^|\.)beacons?[0-9]*[-.]
@@ -56,7 +55,7 @@
 (^|\.)lijit\.
 (^|\.)livechatinc\.
 (^|\.)mathtag\.
-(^|\.)me(diavoice|trics)\.
+(^|\.)me(diavoice|trics|asure(|ment))\.
 (^|\.)mgid\.
 (^|\.)mo(atads|bfox|)\.
 (^|\.)mwbsys\.
