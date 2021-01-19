@@ -17,7 +17,6 @@
 (^|\.)amazon-adsystem\.
 (^|\.)analytics?[-.]
 (^|\.)associates-amazon\.
-(^|\.)aternity\.
 (^|\.)banners?[-.]
 (^|\.)bazaarvoice\.
 (^|\.)beacons?[0-9]*[-.]
