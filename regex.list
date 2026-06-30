@@ -17,8 +17,8 @@
 (^|\.)chartbeat$
 (^|\.)coin-hive$
 (^|\.)con(de(|nastdigital)|textweb)$
-(^|\.)count(ers?)?[0-9]*[-.]$
-(^|\.)cquotient\.$
+(^|\.)count(ers?)?[0-9]*$
+(^|\.)cquotient$
 (^|\.)cr(iteo|wdcntrl)$
 (^|\.)cuberoot$
 (^|\.)demdex$
@@ -64,7 +64,7 @@
 (^|\.)so(nobi|vrn)$
 (^|\.)spotx(|change)$
 (^|\.)starfieldtech$
-(^|\.)stat(s|istics)?[0-9]*[-.]$
+(^|\.)stat(s|istics)?[0-9]*$
 (^|\.)stats\.wp$
 (^|\.)taboola$
 (^|\.)te(ads|aliumiq|rcept)$
@@ -77,7 +77,7 @@
 (^|\.)tynt$
 (^|\.)un(dertone|rulymedia)$
 (^|\.)verizonmedia$
-(^|\.)w\.$
+(^|\.)w$
 (^|\.)yield(mo|one)$
 (^|\.)yimg$
 (^|\.)yotpo$
