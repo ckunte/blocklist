@@ -40,7 +40,6 @@
 /(^|\.)li(jit|vechatinc)$/
 /(^|\.)mathtag$/
 /(^|\.)me(diavoice|trics|asure(|ment))$/
-/(^|\.)measure\.office$/
 /(^|\.)mgid$/
 /(^|\.)mo(atads|bfox|)$/
 /(^|\.)mwbsys$/
@@ -77,7 +76,6 @@
 /(^|\.)tynt$/
 /(^|\.)un(dertone|rulymedia)$/
 /(^|\.)verizonmedia$/
-/(^|\.)w$/
 /(^|\.)yield(mo|one)$/
 /(^|\.)yimg$/
 /(^|\.)yotpo$/
