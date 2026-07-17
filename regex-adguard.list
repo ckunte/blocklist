@@ -1,3 +1,8 @@
+! Exception: Microsoft Azure Traffic Manager is used by login.microsoftonline.com
+! (and much of Microsoft 365/Entra ID/Teams sign-in) as a CNAME target, e.g.
+! www.tm.ak.prd.aadg.trafficmanager.net. Without this exception, the
+! (^|\.)traff(ic).*$ rule below blocks it and breaks Microsoft sign-in.
+@@||trafficmanager.net^
 /(^|\.)(allure|casal)media$/
 /(^|\.)(agent)?analytics$/
 /(^|\.)1rx$/
@@ -17,7 +22,6 @@
 /(^|\.)chartbeat$/
 /(^|\.)coin-hive$/
 /(^|\.)con(de(|nastdigital)|textweb)$/
-/(^|\.)count(ers?)?[0-9]*$/
 /(^|\.)cquotient$/
 /(^|\.)cr(iteo|wdcntrl)$/
 /(^|\.)cuberoot$/
@@ -39,7 +43,7 @@
 /(^|\.)k(argo|eywee|laviyo|rxd).*$/
 /(^|\.)li(jit|vechatinc)$/
 /(^|\.)mathtag$/
-/(^|\.)me(diavoice|trics|asure(|ment))$/
+/(^|\.)measure\.office$/
 /(^|\.)mgid$/
 /(^|\.)mo(atads|bfox|)$/
 /(^|\.)mwbsys$/
@@ -63,19 +67,17 @@
 /(^|\.)so(nobi|vrn)$/
 /(^|\.)spotx(|change)$/
 /(^|\.)starfieldtech$/
-/(^|\.)stat(s|istics)?[0-9]*$/
 /(^|\.)stats\.wp$/
 /(^|\.)taboola$/
 /(^|\.)te(ads|aliumiq|rcept)$/
 /(^|\.)tiqcdn$/
-/(^|\.)track.*$/
 /(^|\.)traff(ic).*$/
 /(^|\.)triplelift$/
 /(^|\.)tru\.am$/
-/(^|\.)turn$/
 /(^|\.)tynt$/
 /(^|\.)un(dertone|rulymedia)$/
 /(^|\.)verizonmedia$/
+/(^|\.)w$/
 /(^|\.)yield(mo|one)$/
 /(^|\.)yimg$/
 /(^|\.)yotpo$/
