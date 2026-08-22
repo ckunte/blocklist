@@ -1,14 +1,10 @@
-! Exception: Microsoft Azure Traffic Manager is used by login.microsoftonline.com
-! (and much of Microsoft 365/Entra ID/Teams sign-in) as a CNAME target, e.g.
-! www.tm.ak.prd.aadg.trafficmanager.net. Without this exception, the
-! (^|\.)traff(ic).*$ rule below blocks it and breaks Microsoft sign-in.
-@@||trafficmanager.net^
 /(^|\.)(allure|casal)media$/
 /(^|\.)(agent)?analytics$/
 /(^|\.)1rx$/
 /(^|\.)2mdn$/
 /(^|\.)3(3across|lift)$/
-/(^|\.)ad(|banner|brite|click|dform|dsafeprotected|dthis|dtoany|entifi|form|freestats|goto|im(age|g)|l(ink|vr)|nxs|o(betm|cean)|s|serv(er|ice)|sonar|svr|track|ult(friendfinder|revenueservice)|vert|vp)$/
+/(^|\.)ad(|brite|form|safeprotected|dthis|dtoany|entifi|freestats|goto|im(age|g)|l(ink|vr)|nxs|ocean|s(|erv(er|ice))|sonar|svr|track|ult(friendfinder|revenueservice)|vert|vp)$/
+/(^|\.)adobetm$/
 /(^|\.)aerserv$/
 /(^|\.)aff(iliat(es|ion))$/
 /(^|\.)aiv-delivery$/
@@ -71,13 +67,11 @@
 /(^|\.)taboola$/
 /(^|\.)te(ads|aliumiq|rcept)$/
 /(^|\.)tiqcdn$/
-/(^|\.)traff(ic).*$/
 /(^|\.)triplelift$/
 /(^|\.)tru\.am$/
 /(^|\.)tynt$/
 /(^|\.)un(dertone|rulymedia)$/
 /(^|\.)verizonmedia$/
-/(^|\.)w$/
 /(^|\.)yield(mo|one)$/
 /(^|\.)yimg$/
 /(^|\.)yotpo$/
